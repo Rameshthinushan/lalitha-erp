@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lalitha-erp/static/css/main.bc102960.css",
+    "main.js": "/lalitha-erp/static/js/main.60122839.js",
+    "index.html": "/lalitha-erp/index.html",
+    "main.bc102960.css.map": "/lalitha-erp/static/css/main.bc102960.css.map",
+    "main.60122839.js.map": "/lalitha-erp/static/js/main.60122839.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc102960.css",
+    "static/js/main.60122839.js"
+  ]
+}
