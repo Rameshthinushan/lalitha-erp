@@ -24,7 +24,7 @@ const Dashboard = () => {
         <div className="col text-end mt-3 mb-3">
           <Link to="/barcode">
             <button className="btn btn-sm btn-primary">
-              Scan Barcodeeee
+              Scan Barcode
             </button>
           </Link>
         </div>
@@ -38,7 +38,7 @@ const Dashboard = () => {
                 return (
                   <div
                     key={index}
-                    className={`${url === tab.slug ? 'bg-white' : 'bg-secondary'} col-lg-1 pt-3 pb-3 border-end`}
+                    className={`${url === tab.slug ? 'bg-white' : 'bg-secondary'} col-lg-1 col-3 pt-3 pb-3 border-end`}
                   >
                     <Link
                       className="text-decoration-none text-dark"
@@ -53,7 +53,7 @@ const Dashboard = () => {
             })}
 
             <div
-              className="col-lg-1 bg-secondary pt-3 pb-3 border-end text-center"
+              className="col-lg-1 col-3 bg-secondary pt-3 pb-3 border-end text-center"
               onClick={() => setShowTabs(!showTabs)}
               style={{ cursor: 'pointer' }}
             >

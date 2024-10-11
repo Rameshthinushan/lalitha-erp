@@ -15,13 +15,9 @@ const BarcodeScan = () => {
           </Link>
         </div>
       </div>
-      <div className="row align-items-center">
-        <div className="col-3 mx-auto text-center">
-          <div>
-            <input type="text" className="form-control" value={data} />
-            {/* <p>{data}</p> */}
-          </div>
-          <div>
+      <div className="row">
+        <div className="col-lg-3 col-12 mx-auto text-center">
+          <input type="text" className="form-control" value={data} />
             <BarcodeScannerComponent
               width={300}
               height={300}
@@ -30,11 +26,9 @@ const BarcodeScan = () => {
                 else setData("Not Found");
               }}
             />
-          </div>
         </div>
       </div>
     </div>
-
   )
 }
 
