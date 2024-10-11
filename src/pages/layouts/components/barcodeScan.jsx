@@ -1,9 +1,15 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import BarcodeScannerComponent from "react-qr-barcode-scanner"
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const BarcodeScan = () => {
   const [data, setData] = useState(null);
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (data && data !== "Not Found") {
+      navigate("/login"); 
+    }
+  }, [data, navigate]);
   return (
     <div className="container-fluid">
       <div className="row mt-2 mb-2">
