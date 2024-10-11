@@ -1,0 +1,239 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+  --color-purple: #AD1DEB;
+  --font-color: #6c757d;
+  --light-theme-background-color: #aaabad36;
+  --light-theme-background-color-combo: #ffff;
+  --dark-theme-background-color: #17212f;
+  --dark-theme-background-color-combo: #1f2d40;
+}
+
+body {
+  font-family: inter, sans-serif !important;
+  background: var(--light-theme-background-color) !important;
+}
+
+.light-theme {
+  background: var(--light-theme-background-color);
+}
+
+.dark-theme {
+  background: var(--dark-theme-background-color);
+}
+
+.mx-h {
+  height: 100vh;
+}
+
+.select {
+  cursor: pointer;
+}
+
+.custom-login-btn {
+  background: var(--color-purple)!important;
+}
+
+.login-container {
+  box-shadow: 1px 1px 14px 1px #a7a3a3;
+}
+
+.show-password {
+  position: relative;
+  bottom: 36px;
+  right: 14px;
+}
+
+.color-purple {
+  color: var(--color-purple) !important;
+}
+
+.search-box-bg {
+  background-color: var(--light-theme-background-color);
+}
+
+.search-text-box {
+  padding: 15px 0px 15px 45px !important; 
+  background-color: var(--light-theme-background-color) !important;
+}
+
+.form-control-search {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  padding: 7px 0px 0px 10px !important;
+}
+
+.w-16 {
+  width: 16%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.user-image {
+  border-radius: 36% 36%;
+}
+
+.rounded-20 {
+  border-radius: 20px;
+}
+
+.active-nav {
+  background: var(--color-purple);
+  border-radius: 20px;
+  color: #ffff;
+}
+
+.active-icon-color {
+  color: #ad1deb;
+}
+
+.active-name-icon {
+  background: #ffff;
+  padding: 4px 8px 4px 8px;
+  border-radius: 3px;
+}
+
+.inactive-name-icon {
+  background: #f3f4f6;
+  padding: 4px 8px 4px 8px;
+  border-radius: 3px;
+}
+
+.active-side-nav {
+  background: var(--color-purple);
+  color: #ffff;
+}
+
+.nav-color {
+  color: #60686f;
+}
+
+.nav-font-color {
+  color: #60686f;
+}
+
+.nav-hover:hover {
+  background: var(--color-purple);
+  color: #ffff;
+}
+
+.select {
+  cursor: pointer;
+}
+
+.tab-colse-icon:hover {
+  background: var(--color-purple);
+  color: white;
+  border-radius: 3px; 
+}
+
+.key-board {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.w-12 {
+  width: 12%;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.add-customer-btn {
+  background: var(--color-purple) !important;
+  color: white !important;
+}
+
+.vh-75 {
+  height: 75vh;
+}
+
+.vh-70  {
+  height: 70vh;
+}
+
+.card-item-title {
+  position: sticky;
+  top: -16px;
+}
+
+.card-height-default {
+  height: 330px;
+}
+
+.nav-font-size {
+  font-size: 12px;
+}
+
+.innerlist {
+  border: 2px solid #ffff;
+}
+
+.innerlist:hover {
+  border: 2px solid #ad1deb;
+  transition: border 1s;
+}
+
+.t-12 {
+  top: 12px;
+}
+/* .nav-icon-fs {
+  font-size: 20px;
+} */
+
+
+/* CODE FOR TOOLTIP */
+.tooltip {
+  position: relative;
+ }
+ 
+ .tooltip::before {
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  transform: translatex(-50%) rotate(-45deg);
+  content: "";
+  display: none;
+  width: 0;
+  height: 0;
+  border: 8px solid #fff;
+  border-top-color: transparent;
+  border-right-color: transparent;
+ }
+ 
+ .tooltip::after {
+  display: none;
+  position: absolute;
+  content: attr(data-tooltip);
+  bottom: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  min-width: 100px;
+  padding: 8px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  color: #000;
+ }
+ 
+ .tooltip:hover:not(:focus)::before,
+ .tooltip:hover:not(:focus)::after {
+  display: block;
+ }
