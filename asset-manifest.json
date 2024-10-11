@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lalitha-erp/static/css/main.bc102960.css",
-    "main.js": "/lalitha-erp/static/js/main.f4e95bb4.js",
+    "main.js": "/lalitha-erp/static/js/main.a195210a.js",
     "index.html": "/lalitha-erp/index.html",
     "main.bc102960.css.map": "/lalitha-erp/static/css/main.bc102960.css.map",
-    "main.f4e95bb4.js.map": "/lalitha-erp/static/js/main.f4e95bb4.js.map"
+    "main.a195210a.js.map": "/lalitha-erp/static/js/main.a195210a.js.map"
   },
   "entrypoints": [
     "static/css/main.bc102960.css",
-    "static/js/main.f4e95bb4.js"
+    "static/js/main.a195210a.js"
   ]
 }
