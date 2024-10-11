@@ -24,7 +24,7 @@ const Dashboard = () => {
         <div className="col text-end mt-3 mb-3">
           <Link to="/barcode">
             <button className="btn btn-sm btn-primary">
-              Scan Barcode
+              Scan Barcodeeee
             </button>
           </Link>
         </div>
